@@ -12,7 +12,7 @@ public class Snack implements Serializable {
         this.idSnack = ++Snack.contadorSnacks;
     }
 
-    public Snacks(String nombre, double precio){
+    public Snack(String nombre, double precio){
         this(); //la primer linea es la llamada al constructor vacio
         this.nombre = nombre;
         this.precio = precio;
